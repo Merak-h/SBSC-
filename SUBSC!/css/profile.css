@@ -1,0 +1,73 @@
+.icon-area{
+    width: 120px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.username{
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 40px;
+}
+.username h1{
+    margin-bottom: 10px;
+}
+.list{
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+.list{
+    list-style: none;
+}
+.list li{
+    margin-bottom: 10px;
+}
+.link{
+    margin-left: auto;
+    margin-right: auto;
+}
+.link a{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 260px;
+    margin-bottom: 20px;
+}
+a:hover{
+    color: rgba(255, 255, 255, 0.616);
+}
+
+
+
+
+@media(min-width: 640px){
+
+    .username h1{
+        margin-bottom: 10px;
+    }
+    /*icon*/
+    .icon-area{
+        width: 180px;
+        height: 180px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+    .icon{
+        width: 180px;
+        height: 180px;
+    }
+    .link{
+        margin-left: 20px;
+    }
+    .link a{
+        display: block;
+        width: 260px;
+        margin-bottom: 20px;
+    }
+}

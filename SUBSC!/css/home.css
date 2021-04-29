@@ -1,0 +1,214 @@
+
+/*コンテンツの追加ボタン*/
+
+.add-content{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    transform: translate(-50%, -50%);
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #ffffff88;
+    box-shadow: 6px 6px 8px #5050507a;
+    backdrop-filter: blur(4px);
+
+}
+.add-content img{
+    margin-left: 2px;
+    margin-top: 2px;
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+}
+/*コンテンツの追加ボタン終了*/
+
+/*トップバーの設定*/
+h1{
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.top_bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.icon{
+    position: relative;
+    width: 72px;
+    height: 72px;
+}
+.iconarea p{
+    margin-top: 10px;
+    text-align: center;
+}
+.iconarea:hover .iconname{
+    color: #ffffffa9;
+}
+.iconarea:hover .icon-mask{
+    color: #fff;
+    text-shadow: #7c7c7c 4px 4px 6px;
+    background-color: #5e5e5e77;
+
+}
+/*トップバーの設定終了*/
+
+/*remind*/
+.remind{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.remind p{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.781);
+    color: rgb(46, 46, 46);
+    padding: 6px;
+    border-radius: 12px;
+    width: 300px;
+    margin-bottom: 20px;
+    
+
+}
+/*remindの設定終了*/
+
+/*monthlysum*/
+.monthlysum{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+.monthlysum h1{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.monthlysum div{
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid rgba(255, 255, 255, 0.452) 4px;
+    align-items: baseline;
+
+}
+.caution_text{
+    font-size: 24px;
+    color: #fff;
+}
+/*monthlysumの設定終了*/
+
+.contents{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 120px;
+}
+.object{
+    margin-bottom: 10px;
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.267);
+    backdrop-filter: blur(4px);
+}
+.objecttop{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+.detale{
+    display: flex;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 6px;
+    justify-content: space-between;
+}
+.detale p{
+    display: inline-block;
+
+}
+.more{
+    display: inline-block;
+    background-color: rgba(194, 140, 255, 0.26);
+    padding: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 6px;
+}
+
+
+@media(min-width: 640px){
+
+    h1{
+        font-size: 48px;
+    }
+
+     /*icon*/
+     .icon-area{
+        width: 80px;
+        height: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+    .icon{
+        width: 80px;
+        height: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .remind p{
+        width: auto;
+    }
+
+    .monthlysum{
+        margin-left: auto;
+        margin-right: auto;
+        width: 66vw;
+        padding-left: 100px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+    }
+    .monthlysum h1{
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    .monthlysum div{
+        padding-top: 30px;
+        padding-left: 30vw;
+        padding-right: 30vwx;
+        margin-bottom: 20px;
+        width: 30vw;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: solid rgba(255, 255, 255, 0.452) 4px;
+        align-items: baseline;
+    
+    }
+    .caution_text{
+        font-size: 32px;
+        color: #fff;
+    }
+    .contents{
+        width: 60vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h3{
+        font-size: 30px;
+    }
+}

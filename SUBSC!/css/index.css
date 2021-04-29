@@ -1,0 +1,60 @@
+h1{
+    padding-top: 28vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    font-size: 28px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.main{
+    padding-top: 20px;
+}
+.button1{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.textbox{
+    margin-left: auto;
+    margin-right: auto;
+}
+.changlink{
+    background: none;
+}
+.changlink:hover{
+    color: #67596d85;
+}
+.skiplink{
+    margin: 0px;
+    padding: 0px;
+    background: none;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    font-size: 16px;
+}.skiplink:hover{
+    color: #67596d85;
+}
+
+@media(min-width: 640px){
+    h1{
+        font-size: 42px;
+    }
+    .button1{
+        margin-top: 60px;
+    }
+    .skiplink{
+        font-size: 20px;
+        margin: 0px;
+        padding: 0px;
+        background: none;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+    }.skiplink:hover{
+        color: #67596d85;
+    }
+}
